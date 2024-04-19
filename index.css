@@ -1,0 +1,45 @@
+html{
+    font-size: 10px ;
+    max-width: 786px;
+    font-family: 'EB Garamond', serif;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+.m1{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.d1{
+    width: 720px;
+    height: 180px;
+    border: 2px solid black;
+}
+.g1{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+
+.c1{
+    width: 335px;
+    height: 200px;
+    border: 2px solid black;
+    gap: 20px;
+    padding: 1px 0px;
+
+}
+.g2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+
+}
